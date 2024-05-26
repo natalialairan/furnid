@@ -1,0 +1,629 @@
+
+@font-face {
+    font-family: Poppins Medium ;
+    src: url(font/Poppins-Medium.otf);
+}
+
+@font-face {
+    font-family: Poppins Bold;
+    src: url(font/Poppins-Bold.otf);
+}
+
+@media screen and (min-width:1024px){
+    
+    .product-table table{
+        width: 700px !important;
+    }
+    .contactus-socmed img {
+        margin-left:20px;
+        width: 30px;
+        height:30px;
+    }
+    #subtitle {
+        font: 30 !important;
+    }
+    .desc-padding {
+        font-size: 20 !important;
+    }
+    .favorite-box {
+        font-size: 13;
+        width: 200px;
+        height:260px;
+    }
+    .favorite-box-aboutUs {
+        font-size: 15;
+        width: 240px;
+        height:190px;
+    }
+}
+
+@media screen and (min-width:738px) and (max-width:1023px){
+    .product-table table{
+        width: 500px !important;
+        box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px !important;
+        border-radius: 10px !important;
+    }
+    
+    .header-link {
+        font-size: 20 !important;
+    }
+    .contactus-socmed img {
+        margin-left:20px;
+        width: 25px;
+        height:25px;
+    }
+    #subtitle{
+        font-size: 25 !important;
+    }
+    
+    .our-services-box {
+        font-size: 35 !important;
+    }
+
+    .desc-padding {
+        font-size: 18 !important;
+    }
+
+    .home-tagline img {
+        width: 100 !important;
+        height: 100 !important;
+    }
+    
+    .home-tagline div {
+        padding-top:33 !important;
+        font-size:18 !important;
+        text-shadow: 0.5px 0.5px 3px rgba(255, 255, 255, 0.63) !important;
+    }
+
+    .favorite-box {
+        font-size: 10;
+        width:140px;
+        height:180px;
+    }
+
+    .favorite-box-aboutUs {
+        font-size: 13;
+        width:140px;
+        height:150px;
+    }
+
+    .our-services img {
+        margin-left: 40 !important;
+        margin-right: 40 !important;
+        width: 50px !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (min-width:677px) and (max-width:737px){
+
+    .product-table table{
+        width: 500px !important;
+        box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px !important;
+        border-radius: 10px !important;
+    }
+    
+    
+    .header-link {
+        font-size: 15 !important;
+    }
+    .contactus-socmed img {
+        margin-left:20px;
+        width: 20px;
+        height:20px;
+    }
+    #subtitle {
+        font-size: 20 !important;
+    }
+    .our-services-box {
+        font-size: 30 !important;
+    }
+    .home-tagline img {
+        width: 90 !important;
+        height: 90 !important;
+    }
+    
+    .home-tagline div {
+        padding-top:23 !important;
+        font-size:15 !important;
+        text-shadow: 0.2px 0.2px 2px rgba(255, 255, 255, 0.63) !important;
+    }
+
+    .desc-padding {
+        font-size: 15 !important;
+    }
+
+    .favorite-box {
+        font-size: 9;
+        width:130px;
+        height:160px;
+    }
+
+    .our-services img {
+        margin-left: 30 !important;
+        margin-right: 30 !important;
+        width: 40px !important;
+        height: auto !important;
+    }
+    
+    .favorite-box-aboutUs {
+        font-size: 11;
+        width:120px;
+        height:130px;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:676px){
+    .product-table table{
+        width: 400px !important;
+        box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px !important;
+        border-radius: 10px !important;
+    }
+    .header-link {
+        font-size: 12 !important;
+    }
+    .contactus-socmed {
+        padding-left: 30;
+    }
+    .contactus-socmed img {
+        margin-left: 7px;
+        height: 15px;
+        width: 15px !important;
+    }
+    #subtitle{
+        font-size: 15 !important;
+    }
+
+    .our-services-box {
+        font-size: 23 !important;
+    }
+
+    .home-tagline img {
+        width: 75!important;
+        height: 75 !important;
+    }
+    
+    .home-tagline div {
+        padding-top:23 !important;
+        font-size:15 !important;
+        text-shadow:  0.75px 0.75px 3px rgba(255, 255, 255, 0.63)!important;
+    }
+
+    .desc-padding {
+        font-size: 10 !important;
+    }
+
+    .favorite-box {
+        font-size: 5;
+        width: 80px;
+        height:80px;
+    }
+    .favorite-box-aboutUs {
+        font-size: 9;
+        width:90px;
+        height:100px;
+    }
+
+    .our-services img {
+        margin-left: 25 !important;
+        margin-right: 25 !important;
+        width:30px !important;
+        height: auto !important;
+    }
+
+    .contactus-socmed img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .header-link {
+        font-size: 7!important;
+    }
+    .contactus-socmed {
+        padding-left: 25 !important;
+    }
+
+    .our-services img {
+        margin-left: 20 !important;
+        margin-right: 20 !important;
+        width:20px !important;
+        height: auto !important;
+    }
+
+    .our-services-box {
+        font-size: 20px !important;
+    }
+
+    .home-tagline img {
+        width: 50!important;
+        height: 50 !important;
+    }
+    
+    .home-tagline div {
+        padding-top:20 !important;
+        font-size:10 !important;
+        text-shadow: 0.4px 0.4px 1px rgba(255, 255, 255, 0.63) !important;
+    }
+    .contactus-socmed img {
+        margin-left:5px;
+        width: 10px;
+        height:10px;
+    }
+    #subtitle{
+        font-size: 10px !important; 
+    }
+    .desc-padding {
+        font-size: 5;
+    }
+    .favorite-box img {
+        border-radius: 2;
+    }
+    .favorite-box {
+        font-size: 4;
+        width: 50px;
+        height:50px;
+        border-radius: 2;
+    }
+    .favorite-box-aboutUs {
+        font-size: 7;
+        width:60px;
+        height:70px;
+    }
+    .footer {
+        font-size: 10;
+    }
+
+}
+
+p::selection {
+    background-color:#272b2e;
+    color: whitesmoke;
+}
+
+div::selection {
+    background-color:#272b2e;
+    color: whitesmoke;
+}
+
+a::selection {
+    background-color:#272b2e;
+    color: whitesmoke;
+}
+
+
+.home-tagline{
+    margin-top: 30;
+    margin-bottom: 30;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(60,60,60);
+    background: linear-gradient(120deg, rgba(60,60,60,1) 0%, rgba(25,30,33,1) 47%, rgba(59,58,58,1) 100%);
+}
+
+.home-tagline img {
+    width:200px;
+    height: auto;
+}
+
+.home-tagline div {
+    color: #e3888a;
+    font-size: 40px;
+    padding-top: 65;
+    text-shadow:1px 1px 4px rgba(255, 255, 255, 0.63);
+}
+
+.our-services-box {
+    color: #272b2e;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 60;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.our-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.our-services img {
+    margin-left: 70;
+    margin-right: 70;
+    width: 60px;
+    height: auto;
+}
+
+.our-services img:hover {
+    transform: scale(1.2);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.5s;
+}
+
+h1::selection, h2::selection, h3::selection, #subtitle::selection{
+        background-color:#272b2e !important;
+        color: #e3888a !important;
+        box-shadow:rgba(255, 216, 245, 0.473) 0px 3px 8px !important;
+}
+
+body {
+    background-color:whitesmoke;
+    font-family:"Poppins Medium";
+    color:black;
+    font-size:14px;
+    margin:0px;
+    height: 100%;
+}
+
+#header {
+    top:0px; 
+    display: flex;
+    justify-content:space-between;
+
+    position:fixed;
+    background-color:#272b2e;;
+    width:100%;
+}
+
+.hover-color{
+    background-color: #e3888a !important;
+}
+
+.hover-font-color a{
+    color:#272b2e !important;
+}
+
+.header-link {
+    font-family: Poppins Bold;
+    list-style: none;
+    align-items:center;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link li a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+.header-link li a:hover{
+    color:#8e9192;
+
+}
+
+.main-logo {
+    float: left;
+    width: 75px;
+    height: auto;
+}
+
+.link {
+    margin-top: 30px;
+    float: right;
+    padding-right:20px; 
+}
+
+.space-content {
+    margin-top:100px;
+}
+
+
+.footer {
+    width:100%;
+    background-color:#272b2e; 
+    text-align:center;
+    padding-bottom:5px;
+    color:whitesmoke;
+    margin-top: 25px;
+}
+
+.sosmed-logo {
+    width:150px;
+    height:30px;
+}
+
+img {
+    max-width: 100%;
+    min-width: none;
+}
+
+#content {
+    background-color:#8e9192;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#subtitle {
+    text-shadow:2px 2px #272b2e !important;
+    font-family:Poppins Bold !important;
+    color:whitesmoke !important;
+    font-size: 30;
+}
+
+.top-favBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.favorite-box {
+    box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    background-color: #272b2e;
+    border-radius: 10px;
+}
+
+.favorite-box-aboutUs {
+    box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px;
+    align-items: center;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    background-color: #272b2e;
+    border-radius: 10px;
+}
+
+.favorite-box img {
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+.favorite-box a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.favorite-box a:hover {
+    text-decoration: underline;
+}
+
+.slides-img {
+    width: 100% !important;
+}
+
+.favorite-box img:hover, .aboutus-top:hover, #content:hover, .slides-img:hover {
+    opacity: 1;
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.desc-padding {
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.contactus-socmed {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60;
+    justify-content:left;
+}
+
+
+
+.product-table {
+    font-size: 18px;
+}
+
+.product-table table {
+    border: none;
+    border-width: 0;
+    box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 850px; */
+	padding: 30px;
+	background-color: rgba(255,255,255,0.2);
+	color:#272b2e;
+    border-radius: 10px;
+}
+
+.product-table {
+    font-size: 18px !important;
+}
+.product-table table{
+    width: px !important;
+    box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px !important;
+    border-radius: 10px !important;
+}
+
+.product-table table tr, td {
+    padding: 15px;
+}
+
+.row:hover {
+    background-color:#f1c8c8;
+    border-radius: 5px;
+}
+
+.space-content table th img {
+    width: 250;
+    border-radius: 20;
+    box-shadow: rgba(1, 11, 39, 0.24) 0px 3px 8px;
+}
+
+.space-content table tr th img:hover {
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.table-title {
+    text-shadow:1px 2px #272b2e;
+    left: 0;
+    right: 0;
+    font-size: xx-large;
+    color: white;
+    background-color:#8e9192;
+    text-align: center;
+}
+
+.login-info {
+    text-align:center;
+    font-size: 20;
+}
+
+.login-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color:#272b2e;
+}
+
+.space-content form table input {
+    border-radius: 5px;
+    background-color:#8e9192;
+    color: whitesmoke;
+}
+
+.space-content form table tr td {
+    color:aliceblue;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5;
+    height: 30;
+    width: 100%;
+    background-color: #8e9192;
+    color: aliceblue;
+    text-decoration:solid;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background: white;
+    color: #272b2e;
+}
+
+#email_error, #pass_error {
+    text-align: center;
+    margin-top: 3px;
+    width: 100%;
+    height: 10;
+    font-size: 10px;
+    padding: 5px 8px;
+    color: #ec0027;
+    display: none;
+}

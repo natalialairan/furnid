@@ -1,0 +1,58 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnid.id</title>
+    <link rel="icon" type="logo furnid/logo.png" href="/logo furnid/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div id="header">
+        <img src="logo furnid/logo.png"  class="main-logo">
+        <p class="link"> 
+            <ul class="header-link">
+                <li> <a href="home.html">Home</a> </li>
+                <li> <a href="product.html">Product</a> </li>
+                <li> <a href="aboutus.html"> About Furnid</a> </li>
+                <li> <a href="login.html">Log-in</a> </li>
+            </ul>
+            
+        </p>
+    </div>
+    <div class="space-content">
+       <div class="login-info">If you don't have an account, you should make your account by buying from our offline store!</div>
+
+       <div>
+           <form name="login-form" onsubmit="return validate()">
+               <table class="login-table">
+                   <tr>
+                    <tr>
+                        <td>Username: </td>
+                        <td><input type="text" name="email" autocomplete="off"></td>
+                    </tr>
+                    <tr>
+                        <td colspan=2 id="email_error">Your username is wrong!</td>
+                    </tr>
+                   <tr>
+                    <td>Password: </td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td colspan=2 id="pass_error">Input the password!</td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <button type="reset" onclick="error-msg"> Reset</button>
+                        <button type="submit">  Submit </button> </td>
+                </tr>
+               </table>
+           </form>
+       </div>
+    </div>
+    <div class="footer container">
+        <img src="logo sosmed/all logo.png" class="sosmed-logo"> <br>
+        Ⓒ 2022 by Natalia Lairan 
+    </div>
+
+</body>
